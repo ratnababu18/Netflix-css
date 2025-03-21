@@ -1,0 +1,1648 @@
+body {
+    margin: 0;
+    background-color: #141414;
+    color: #ffffff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+
+}
+
+
+
+/* Hero Section */
+.hero-page {
+    width: 100%;
+
+    height: 100vh;
+    overflow: hidden;
+    position: relative;
+    margin: 0 auto;
+}
+
+.hero-img {
+    width: 100%;
+
+    border-radius: 14px;
+}
+
+.hero-page-center {
+
+    width: 100%;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Tint Overlay */
+.tint {
+    background-color: rgba(0, 0, 0, 0.418);
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+}
+
+/* Navigation */
+.nav {
+    padding: 20px;
+    width: 90%;
+    position: absolute;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.logo {
+    height: 70px;
+    margin-left: 20px;
+}
+
+.nav-btn {
+    display: flex;
+    gap: 20px;
+}
+
+/* Buttons */
+.eng-btn,
+.sign-btn {
+    padding: 10px;
+    border-radius: 50px;
+    font-size: 18px;
+    border: 1px solid lightgray;
+}
+
+.eng-btn {
+    width: 140px;
+    color: white;
+    background: rgba(0, 0, 0, 0.384);
+}
+
+.sign-btn {
+    width: 110px;
+    color: rgb(15, 15, 15);
+    background: white;
+}
+
+.eng-btn:hover {
+    width: 150px;
+}
+
+.sign-btn:hover {
+    width: 120px;
+}
+
+/* Content */
+.contant {
+    position: absolute;
+    width: 660px;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    color: white;
+    text-align: center;
+}
+
+.title,
+.subtitle {
+    font-size: 65px;
+}
+
+.subtitle {
+    padding-left: 70px;
+}
+
+.discription {
+    font-size: 30px;
+    font-weight: 500;
+    padding-left: 90px;
+}
+
+.sub-disc {
+    font-size: 20px;
+    font-weight: 600;
+}
+
+/* Login Section */
+.login {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.input {
+    padding: 20px;
+    width: 350px;
+    background: rgba(211, 211, 211, 0.397);
+    font-size: 26px;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: none;
+}
+
+.input::placeholder {
+    color: lightgray;
+}
+
+.start-btn {
+    padding: 20px;
+    width: 280px;
+    background: red;
+    color: white;
+    font-size: 26px;
+    font-weight: bolder;
+    border-radius: 50px;
+    margin-top: 20px;
+    border: none;
+    cursor: pointer;
+}
+
+/* Section */
+.sec {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.404) 60%, rgba(0, 0, 0, 0.8) 100%);
+
+    width: 100%;
+    padding: 30px;
+}
+
+/* Trending Section */
+.trading {
+    color: lightgray;
+    font-weight: bolder;
+    margin-left: 100px;
+    margin-bottom: 40px;
+}
+
+.container {
+    margin-left: 120px;
+    display: flex;
+    gap: 50px;
+    flex-wrap: wrap;
+
+}
+
+.rank {
+    position: absolute;
+    z-index: 1;
+    font-size: 100px;
+    color: lightgray;
+    margin-left: -22px;
+}
+
+
+
+.tranding-img {
+    width: 180px;
+    height: 310px;
+    border-radius: 15px;
+}
+
+.tranding-img:hover {
+
+    height: 360px;
+
+}
+
+/* Reasons Section */
+.reason-heading {
+    font-size: 40px;
+    font-weight: bold;
+    color: rgba(48, 47, 47, 0.808);
+    padding: 50px 20px;
+}
+
+.join {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    flex-wrap: wrap;
+}
+
+.reason-card {
+    width: 290px;
+    height: 290px;
+    border-radius: 22px;
+    background: rgba(0, 0, 0, 0.226);
+    padding: 20px;
+    text-align: center;
+}
+
+.reason {
+    color: white;
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.explanation {
+    color: white;
+    font-size: 20px;
+    font-weight: 500;
+    padding: 0 20px;
+}
+
+/* FAQ Section */
+.question {
+    padding: 30px 10px;
+    color: rgba(41, 38, 38, 0.616);
+    margin: 20px 200px;
+}
+
+
+.freq-questions {
+    width: 100%;
+    border: 1px solid gray;
+    background: rgba(36, 35, 35, 0.664);
+    display: flex;
+    color: white;
+    justify-content: space-between;
+    padding: 10px;
+    align-items: center;
+    border-radius: 20px;
+    margin-bottom: 10px;
+}
+
+.freq-questions:hover {
+    background-color: rgba(0, 0, 0, 0.76);
+    cursor: pointer;
+}
+
+.question-one {
+    padding: 0 20px;
+    font-size: 22px;
+}
+
+/* Ready to Watch */
+.ready-to-watch {
+    margin: 10px auto;
+    text-align: center;
+    display: block;
+    /* Ensures margin auto works */
+    width: fit-content;
+    /* Adjusts width to content */
+}
+
+
+.Ready {
+    color: white;
+    font-size: 22px;
+}
+
+/* footer */
+footer {
+    background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.445) 60%, rgba(0, 0, 0, 0.8) 100%);
+    height: 50vh;
+    width: 100%;
+    padding-top: 20px;
+}
+
+.footer-span {
+    color: white;
+
+    font-size: 22px;
+
+
+
+}
+
+.footer-div {
+    display: flex;
+    justify-content: space-around;
+    gap: 60px;
+    color: white;
+}
+
+ul {
+    list-style: none;
+}
+
+li a {
+    color: rgb(10, 10, 10);
+    font-size: 18px;
+    font-weight: 500;
+}
+
+.footer-bottom {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 24px;
+    color: rgb(179, 178, 178);
+}
+
+/*  */
+
+@media screen and (max-width:480px) {
+
+
+
+
+    /* Hero Section */
+    .hero-page {
+        width: 100%;
+
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .hero-img {
+        width: 100%;
+        height: 200px;
+        border-radius: 14px;
+    }
+
+    .hero-page-center {
+
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Tint Overlay */
+    .tint {
+        background-color: rgba(0, 0, 0, 0.418);
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    /* Navigation */
+    .nav {
+        padding: 10px;
+        width: 90%;
+
+
+
+    }
+
+    .logo {
+        height: 60px;
+        text-align: center;
+        margin: 2px auto;
+    }
+
+    .nav-btn {
+        display: none;
+
+    }
+
+
+    /* Content */
+    .contant {
+        position: absolute;
+        width: 250px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .title,
+    .subtitle {
+        font-size: 30px;
+    }
+
+    .subtitle {
+        padding-left: 0px;
+    }
+
+    .discription {
+        font-size: 15px;
+        font-weight: 500;
+        padding-left: 0px;
+    }
+
+    .sub-disc {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    /* Login Section */
+    .login {
+        display: block;
+        align-items: center;
+
+    }
+
+    .input {
+        padding: 10px;
+        width: 300px;
+        background: rgba(211, 211, 211, 0.397);
+        font-size: 16px;
+        border-radius: 50px;
+        margin: 10px 0 0 -20px;
+        text-align: center;
+        border: none;
+    }
+
+    .input::placeholder {
+        color: lightgray;
+    }
+
+    .start-btn {
+        padding: 10px;
+        width: 300px;
+        background: red;
+        margin: 10px 0 0 -20px;
+        color: white;
+        font-size: 16px;
+        font-weight: bolder;
+        border-radius: 50px;
+
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Section */
+    .sec {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+        height: 100%;
+        width: 100%;
+        padding: 30px;
+    }
+
+    /* Trending Section */
+    .trading {
+        color: lightgray;
+        font-weight: bolder;
+        margin-left: 70px;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        gap: 20px;
+        width: 100%;
+    }
+
+    .top-img {
+        margin: 0 50px;
+    }
+
+    .rank {
+        position: absolute;
+        align-items: center;
+        z-index: 1;
+        font-size: 80px;
+        color: lightgray;
+        margin-left: -22px;
+    }
+
+
+
+    .tranding-img {
+        width: 180px;
+        height: 300px;
+        border-radius: 15px;
+        margin: auto;
+
+    }
+
+    .tranding-img:hover {
+
+        height: 360px;
+
+    }
+
+    /* Reasons Section */
+    .reason-heading {
+        font-size: 26px;
+        font-weight: bold;
+        color: rgba(48, 47, 47, 0.808);
+        padding: 30px 30px;
+    }
+
+    .join {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .reason-card {
+        width: 210px;
+        height: 210px;
+        border-radius: 22px;
+        background: rgba(0, 0, 0, 0.226);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .reason {
+        color: white;
+        font-size: 18px;
+        font-weight: bold;
+    }
+
+    .explanation {
+        color: white;
+        font-size: 12px;
+        font-weight: 500;
+        padding: 0 20px;
+    }
+
+    /* FAQ Section */
+    .question {
+        padding: 20px 10px;
+        color: rgba(41, 38, 38, 0.616);
+        margin: 20px 20px;
+    }
+
+    .question-heading {
+        font-size: 20px;
+    }
+
+    .freq-questions {
+        width: 100%;
+        border: 1px solid gray;
+        background: rgba(36, 35, 35, 0.664);
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        padding: 8px;
+        align-items: center;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+    .question-one {
+        padding: 0 20px;
+        font-size: 14px;
+    }
+
+    /* Ready to Watch */
+    .ready-to-watch {
+        margin: 10px auto;
+        text-align: center;
+        display: block;
+        /* Ensures margin auto works */
+        width: fit-content;
+        /* Adjusts width to content */
+    }
+
+
+    .Ready {
+        color: white;
+        font-size: 22px;
+    }
+
+    /* footer */
+    footer {
+        margin-top: 30px 0;
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.315) 60%, rgba(0, 0, 0, 0.8) 100%);
+        height: 100%;
+        width: 100%;
+    }
+
+    .footer-span {
+        color: white;
+        font-size: 18px;
+        margin: 0 50px;
+
+    }
+
+    .footer-div {
+        display: block;
+        padding: 0 120px;
+        gap: 20px;
+        color: rgba(250, 249, 249, 0.767);
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li a {
+        color: rgb(10, 10, 10);
+        font-size: 14px;
+        font-weight: 500;
+    }
+
+    .footer-bottom {
+        padding: 20px 0;
+        text-align: center;
+        font-size: 18px;
+        color: rgb(179, 178, 178);
+    }
+
+
+}
+
+@media screen and (min-width:481px) and (max-width:699px) {
+    .hero-page {
+        width: 100%;
+
+        height: 100vh;
+
+    }
+
+    .hero-img {
+        width: 100%;
+        height: 220px;
+        border-radius: 14px;
+    }
+
+    .hero-page-center {
+
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Tint Overlay */
+    .tint {
+        background-color: rgba(0, 0, 0, 0.418);
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    /* Navigation */
+    .nav {
+        padding: 20px;
+        width: 90%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 60px;
+        margin-left: 20px;
+    }
+
+    .nav-btn {
+        display: flex;
+        gap: 20px;
+    }
+
+    /* Buttons */
+    .eng-btn,
+    .sign-btn {
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 16px;
+        border: 1px solid lightgray;
+    }
+
+    .eng-btn {
+        width: 130px;
+        color: white;
+        background: rgba(0, 0, 0, 0.384);
+    }
+
+    .sign-btn {
+        width: 100px;
+        color: rgb(15, 15, 15);
+        background: white;
+    }
+
+    .eng-btn:hover {
+        width: 150px;
+    }
+
+    .sign-btn:hover {
+        width: 120px;
+    }
+
+    /* Content */
+    .contant {
+        position: absolute;
+        width: 550px;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+
+    }
+
+    .title,
+    .subtitle {
+        font-size: 50px;
+        padding: 30px 0 0 0;
+    }
+
+    .subtitle {
+        padding-left: 30px;
+
+    }
+
+    .discription {
+        font-size: 24px;
+        font-weight: 500;
+        padding-left: 40px;
+    }
+
+    .sub-disc {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* Login Section */
+    .login {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .input {
+        padding: 17px;
+        width: 280px;
+        background: rgba(211, 211, 211, 0.397);
+        font-size: 22px;
+        border-radius: 50px;
+        margin-top: 20px;
+        border: none;
+    }
+
+    .input::placeholder {
+        color: lightgray;
+    }
+
+    .start-btn {
+        padding: 18px;
+        width: 250px;
+        background: red;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 50px;
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Section */
+    .sec {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+
+        width: 100%;
+
+    }
+
+    /* Trending Section */
+    .trading {
+
+        color: lightgray;
+        font-weight: bolder;
+        margin: 20px 200px;
+    }
+
+    .container {
+
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+
+    }
+
+    .top-img {
+        margin: 0 0 0 20px;
+    }
+
+    .rank {
+        position: absolute;
+        z-index: 1;
+        font-size: 100px;
+        color: lightgray;
+        margin-left: -22px;
+    }
+
+
+
+    .tranding-img {
+        width: 180px;
+        height: 310px;
+        border-radius: 15px;
+    }
+
+    .tranding-img:hover {
+
+        height: 360px;
+
+    }
+
+    /* Reasons Section */
+    .reason-heading {
+        font-size: 32px;
+        font-weight: bold;
+        color: rgba(48, 47, 47, 0.808);
+        text-align: center;
+    }
+
+    .join {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .reason-card {
+        width: 290px;
+        height: 290px;
+        border-radius: 22px;
+        background: rgba(0, 0, 0, 0.226);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .reason {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .explanation {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0 20px;
+    }
+
+    /* FAQ Section */
+    .question {
+        padding: 30px 10px;
+        color: rgba(41, 38, 38, 0.616);
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    .question-heading {
+        font-size: 22px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .freq-questions {
+        width: 100%;
+        border: 1px solid gray;
+        background: rgba(36, 35, 35, 0.664);
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        padding: 4px;
+        align-items: center;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+    .question-one {
+        padding: 0 20px;
+        font-size: 18px;
+    }
+
+    /* Ready to Watch */
+    .ready-to-watch {
+        margin: 10px auto;
+        text-align: center;
+        display: block;
+        /* Ensures margin auto works */
+        width: fit-content;
+        /* Adjusts width to content */
+    }
+
+
+    .Ready {
+        color: white;
+        font-size: 18px;
+    }
+
+    /* footer */
+    footer {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.452) 60%, rgba(0, 0, 0, 0.8) 100%);
+        height: 50vh;
+        width: 100%;
+    }
+
+    .footer-span {
+        color: white;
+        margin: 0 180px;
+        font-size: 20px;
+
+
+
+    }
+
+    .footer-div {
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    div h1 {
+        margin-top: 10px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    li a {
+        color: rgb(10, 10, 10);
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .footer-bottom {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 22px;
+        color: rgb(179, 178, 178);
+    }
+
+}
+
+@media screen and (min-width:700px) and (max-width:1024px) {
+    .hero-page {
+        width: 100%;
+
+        height: 100vh;
+
+    }
+
+    .hero-img {
+        width: 100%;
+        height: 220px;
+        border-radius: 14px;
+    }
+
+    .hero-page-center {
+
+        width: 90%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Tint Overlay */
+    .tint {
+        background-color: rgba(0, 0, 0, 0.418);
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    /* Navigation */
+    .nav {
+        padding: 20px;
+        width: 90%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 60px;
+        margin-left: 20px;
+    }
+
+    .nav-btn {
+        display: flex;
+        gap: 20px;
+    }
+
+    /* Buttons */
+    .eng-btn,
+    .sign-btn {
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 16px;
+        border: 1px solid lightgray;
+    }
+
+    .eng-btn {
+        width: 130px;
+        color: white;
+        background: rgba(0, 0, 0, 0.384);
+    }
+
+    .sign-btn {
+        width: 100px;
+        color: rgb(15, 15, 15);
+        background: white;
+    }
+
+    .eng-btn:hover {
+        width: 150px;
+    }
+
+    .sign-btn:hover {
+        width: 120px;
+    }
+
+    /* Content */
+    .contant {
+        position: absolute;
+        width: 550px;
+
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+
+    }
+
+    .title,
+    .subtitle {
+        font-size: 50px;
+        padding: 30px 0 0 0;
+    }
+
+    .subtitle {
+        padding-left: 30px;
+
+    }
+
+    .discription {
+        font-size: 24px;
+        font-weight: 500;
+        padding-left: 40px;
+    }
+
+    .sub-disc {
+        font-size: 16px;
+        font-weight: 600;
+    }
+
+    /* Login Section */
+    .login {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .input {
+        padding: 17px;
+        width: 280px;
+        background: rgba(211, 211, 211, 0.397);
+        font-size: 22px;
+        border-radius: 50px;
+        margin-top: 20px;
+        border: none;
+    }
+
+    .input::placeholder {
+        color: lightgray;
+    }
+
+    .start-btn {
+        padding: 18px;
+        width: 250px;
+        background: red;
+        color: white;
+        font-size: 20px;
+        font-weight: bold;
+        border-radius: 50px;
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Section */
+    .sec {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+
+        width: 100%;
+
+    }
+
+    /* Trending Section */
+    .trading {
+
+        color: lightgray;
+        font-weight: bolder;
+        margin: 20px 200px;
+    }
+
+    .container {
+
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+
+    }
+
+    .top-img {
+        margin: 0 0 0 20px;
+    }
+
+    .rank {
+        position: absolute;
+        z-index: 1;
+        font-size: 100px;
+        color: lightgray;
+        margin-left: -22px;
+    }
+
+
+
+    .tranding-img {
+        width: 180px;
+        height: 310px;
+        border-radius: 15px;
+    }
+
+    .tranding-img:hover {
+
+        height: 360px;
+
+    }
+
+    /* Reasons Section */
+    .reason-heading {
+        font-size: 32px;
+        font-weight: bold;
+        color: rgba(48, 47, 47, 0.808);
+        text-align: center;
+    }
+
+    .join {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .reason-card {
+        width: 290px;
+        height: 290px;
+        border-radius: 22px;
+        background: rgba(0, 0, 0, 0.226);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .reason {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .explanation {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0 20px;
+    }
+
+    /* FAQ Section */
+    .question {
+        padding: 30px 10px;
+        color: rgba(41, 38, 38, 0.616);
+        margin: 20px 0px;
+        width: 100%;
+    }
+
+    .question-heading {
+        font-size: 22px;
+        text-align: center;
+        padding: 10px 0;
+    }
+
+    .freq-questions {
+        width: 100%;
+        border: 1px solid gray;
+        background: rgba(36, 35, 35, 0.664);
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        padding: 4px;
+        align-items: center;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+    .question-one {
+        padding: 0 20px;
+        font-size: 18px;
+    }
+
+    /* Ready to Watch */
+    .ready-to-watch {
+        margin: 10px auto;
+        text-align: center;
+        display: block;
+        /* Ensures margin auto works */
+        width: fit-content;
+        /* Adjusts width to content */
+    }
+
+
+    .Ready {
+        color: white;
+        font-size: 18px;
+    }
+
+    /* footer */
+    footer {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.452) 60%, rgba(0, 0, 0, 0.8) 100%);
+        height: 50vh;
+        width: 100%;
+    }
+
+    .footer-span {
+        color: white;
+        margin: 0 180px;
+        font-size: 20px;
+
+
+
+    }
+
+    .footer-div {
+        display: flex;
+        justify-content: space-around;
+        gap: 30px;
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    div h1 {
+        margin-top: 10px;
+        font-size: 26px;
+        text-align: center;
+    }
+
+    li a {
+        color: rgb(10, 10, 10);
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .footer-bottom {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 22px;
+        color: rgb(179, 178, 178);
+    }
+
+}
+
+
+@media screen and (min-width:1440px) {
+
+
+    /* Hero Section */
+    .hero-page {
+        width: 100%;
+
+        height: 100vh;
+        overflow: hidden;
+        position: relative;
+        margin: 0 auto;
+    }
+
+    .hero-img {
+        width: 100%;
+
+        border-radius: 14px;
+    }
+
+    .hero-page-center {
+
+        width: 100%;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+    }
+
+    /* Tint Overlay */
+    .tint {
+        background-color: rgba(0, 0, 0, 0.418);
+        background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0) 60%, rgba(0, 0, 0, 0.8) 100%);
+        position: absolute;
+        top: 0;
+        left: 0;
+        bottom: 0;
+        right: 0;
+    }
+
+    /* Navigation */
+    .nav {
+        padding: 20px;
+        width: 90%;
+        position: absolute;
+        top: 0;
+        left: 50%;
+        transform: translateX(-50%);
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .logo {
+        height: 70px;
+        margin-left: 20px;
+    }
+
+    .nav-btn {
+        display: flex;
+        gap: 20px;
+    }
+
+    /* Buttons */
+    .eng-btn,
+    .sign-btn {
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 18px;
+        border: 1px solid lightgray;
+    }
+
+    .eng-btn {
+        width: 140px;
+        color: white;
+        background: rgba(0, 0, 0, 0.384);
+    }
+
+    .sign-btn {
+        width: 110px;
+        color: rgb(15, 15, 15);
+        background: white;
+    }
+
+    .eng-btn:hover {
+        width: 150px;
+    }
+
+    .sign-btn:hover {
+        width: 120px;
+    }
+
+    /* Content */
+    .contant {
+        position: absolute;
+        width: 660px;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        color: white;
+        text-align: center;
+    }
+
+    .title,
+    .subtitle {
+        font-size: 65px;
+    }
+
+    .subtitle {
+        padding-left: 70px;
+    }
+
+    .discription {
+        font-size: 30px;
+        font-weight: 500;
+        padding-left: 90px;
+    }
+
+    .sub-disc {
+        font-size: 20px;
+        font-weight: 600;
+    }
+
+    /* Login Section */
+    .login {
+        display: flex;
+        align-items: center;
+        gap: 15px;
+    }
+
+    .input {
+        padding: 20px;
+        width: 350px;
+        background: rgba(211, 211, 211, 0.397);
+        font-size: 26px;
+        border-radius: 50px;
+        margin-top: 20px;
+        border: none;
+    }
+
+    .input::placeholder {
+        color: lightgray;
+    }
+
+    .start-btn {
+        padding: 20px;
+        width: 280px;
+        background: red;
+        color: white;
+        font-size: 26px;
+        font-weight: bolder;
+        border-radius: 50px;
+        margin-top: 20px;
+        border: none;
+        cursor: pointer;
+    }
+
+    /* Section */
+    .sec {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.404) 60%, rgba(0, 0, 0, 0.8) 100%);
+
+        width: 100%;
+        padding: 30px;
+    }
+
+    /* Trending Section */
+    .trading {
+        color: lightgray;
+        font-weight: bolder;
+        margin-left: 100px;
+        margin-bottom: 40px;
+    }
+
+    .container {
+        margin-left: 120px;
+        display: flex;
+        gap: 50px;
+        flex-wrap: wrap;
+
+    }
+
+    .rank {
+        position: absolute;
+        z-index: 1;
+        font-size: 100px;
+        color: lightgray;
+        margin-left: -22px;
+    }
+
+
+
+    .tranding-img {
+        width: 180px;
+        height: 310px;
+        border-radius: 15px;
+    }
+
+    .tranding-img:hover {
+
+        height: 360px;
+
+    }
+
+    /* Reasons Section */
+    .reason-heading {
+        font-size: 40px;
+        font-weight: bold;
+        color: rgba(48, 47, 47, 0.808);
+        padding: 50px 20px;
+    }
+
+    .join {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 30px;
+        flex-wrap: wrap;
+    }
+
+    .reason-card {
+        width: 290px;
+        height: 290px;
+        border-radius: 22px;
+        background: rgba(0, 0, 0, 0.226);
+        padding: 20px;
+        text-align: center;
+    }
+
+    .reason {
+        color: white;
+        font-size: 24px;
+        font-weight: bold;
+    }
+
+    .explanation {
+        color: white;
+        font-size: 20px;
+        font-weight: 500;
+        padding: 0 20px;
+    }
+
+    /* FAQ Section */
+    .question {
+        padding: 30px 10px;
+        color: rgba(41, 38, 38, 0.616);
+        margin: 20px 200px;
+    }
+
+
+    .freq-questions {
+        width: 100%;
+        border: 1px solid gray;
+        background: rgba(36, 35, 35, 0.664);
+        display: flex;
+        color: white;
+        justify-content: space-between;
+        padding: 10px;
+        align-items: center;
+        border-radius: 20px;
+        margin-bottom: 10px;
+    }
+
+    .freq-questions:hover {
+        background-color: rgba(0, 0, 0, 0.76);
+        cursor: pointer;
+    }
+
+    .question-one {
+        padding: 0 20px;
+        font-size: 22px;
+    }
+
+    /* Ready to Watch */
+    .ready-to-watch {
+        margin: 10px auto;
+        text-align: center;
+        display: block;
+        /* Ensures margin auto works */
+        width: fit-content;
+        /* Adjusts width to content */
+    }
+
+
+    .Ready {
+        color: white;
+        font-size: 22px;
+    }
+
+    /* footer */
+    footer {
+        background: linear-gradient(to top, rgba(0, 0, 0, 0.8) 0, rgba(0, 0, 0, 0.445) 60%, rgba(0, 0, 0, 0.8) 100%);
+        height: 50vh;
+        width: 100%;
+        padding-top: 20px;
+    }
+
+    .footer-span {
+        color: white;
+
+        font-size: 22px;
+
+
+
+    }
+
+    .footer-div {
+        display: flex;
+        justify-content: space-around;
+        gap: 60px;
+        color: white;
+    }
+
+    ul {
+        list-style: none;
+    }
+
+    li a {
+        color: rgb(10, 10, 10);
+        font-size: 18px;
+        font-weight: 500;
+    }
+
+    .footer-bottom {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 24px;
+        color: rgb(179, 178, 178);
+    }
+}
